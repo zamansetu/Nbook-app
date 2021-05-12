@@ -507,7 +507,7 @@ Angled Transition
 
 .btn-download {
 	color: #ffff;
-	border: 2px solid #333;
+/*	border: 2px solid #333;*/
 	padding: 10px 45px;
 	border-radius: 30px;
 	background: #0096ff;
@@ -1108,13 +1108,13 @@ Angled Transition
 	height: 54px;
 }
 
-.btn-send{
-	color: #fff;
-	background: #0096ff;
-	border-radius: 3px;
-	padding: 15px 45px;
-	text-transform: uppercase;
-	margin-bottom: 15px;
+.btn-send {
+    color: #fff;
+    background: #0096ff;
+    border-radius: 3px;
+    padding: 10px 27px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 /* Footer Section */
@@ -1262,6 +1262,11 @@ Media Query For Tab
 	.browsing-section h5 {margin-top: 35px;}
 	.browsing-section h5::after {left:191px;}
   	.browsing-section h5::before {left:200px;}
+  	.widget-left-text p {text-align: center;}
+  	.blog h2 {text-align: center;}
+  	.blog p {text-align: center;}
+  	.blog-second-post h2 {text-align: center;}
+  	.blog-second-post p {text-align: center;}
   	.center .slick-center img { display: block; margin: 0 auto;}
   	.counter-section{text-align: center;}
 	.counter-section h6 {margin-bottom: 22px;}
@@ -1269,6 +1274,11 @@ Media Query For Tab
 	.counter-section h3{font-size: 40px;}
 	.news-content {padding-top: 75px;}
 	.news-section .first-post { margin-top: 30px;}
+	.contact-box{text-align: center; margin-bottom: 35px;}
+  	.contact-box h3 {font-size: 23px;}
+  	.contact-box p {text-align: center;}
+  	.contact-box .form-control{text-align: center;}
+    .btn-send {padding: 7px 22px;}
 }
 
 
@@ -1300,7 +1310,7 @@ Media Query For Mobile
   .promo-left .fa{margin: 0 auto;}
   .promo-content img{ margin: 0 auto 39px; }
   .promo-right h3 {text-align: center; margin-top: 14px;}
-  .promo-right p {text-align: center;margin-bottom: 15px; padding: 10px;}
+  .promo-right p {text-align: center;margin-bottom: 15px;padding: 10px;}
   .promo-right .fa{margin: 0 auto;}
   .promo-hover { margin-bottom: 25px; }
   .download-content h2 {font-size: 20px; padding: 15px;}
@@ -1312,12 +1322,15 @@ Media Query For Mobile
   .browsing-section h5 {margin-top: 44px;}
   .browsing-section h5::after {left: 99px;}
   .browsing-section h5::before {left: 93px;}
-  .browsing-section{text-align: center; padding: 75px 0 0;}
+  .browsing-section{text-align: center;}
   .browsing-section h1{font-size: 30px}
-  .counter-section{text-align: center;}
+  .browsing-btn {margin-top: 24px;}
+  .counter-section{text-align: center; padding: 50px 0;}
   .counter-section h6 {margin-bottom: 22px;}
   .counter-section .fa {font-size: 50px;}
   .counter-section h3{font-size: 40px;}
+  .browsing-section {padding: 75px 0 0;}
+  .browsing-section p { padding: 15px;}
   .news-content {padding-top: 75px;}
   .widget-left-text p {font-size: 16px; text-align: center;}
   .botton-widget {margin: 72px 0;}
@@ -1329,10 +1342,16 @@ Media Query For Mobile
   .blog-sharing { padding: 10px 1px; text-align: center; margin-left: 21px;}
   .blog-sharing ul li {margin-left: 18px;}
   .blog-sharing ul li a .fa {font-size: 19px;}
+  .blog-second-post h2 {text-align: center;}
+  .blog-second-post p {text-align: center;}		
   .contact-section {padding: 44px 0;}
-  .contact-section p { font-size: 15px; margin-bottom: 31px;}
+  .contact-section p { font-size: 15px; margin-bottom: 31px; text-align: center;}
+  .contact-box{text-align: center;}
   .contact-box h3 {font-size: 23px;}
-  .social-media ul li a .fa { font-size: 18px; width: 35px; height: 35px; line-height: 35px;}
+  .contact-box .form-control{text-align: center;}
+  .btn-send {padding: 7px 22px;}
+  .social-media ul li{margin: 10px 2px;}
+  .social-media .fa { font-size: 15px; width: 29px; height: 29px; line-height: 29px;}
   .contact-box { margin-bottom: 27px;}
 
 }
